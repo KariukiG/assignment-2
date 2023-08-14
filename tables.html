@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables in Web development</title>
+  <style>
+td{
+  padding: 10px;
+  text-align: center;
+}
+tr:hover{
+  background-color:rgb(196, 57, 57);
+
+}
+}
+  </style>
+  
+</head>
+<body>
+  <table border="2"style= borderolor="red"
+   width="500" height="400" 
+   style="border-collapse: collapse;"  >
+    <caption>Students Details</caption>
+    <colgroup>
+    <col span="1" style="background-color: aqua;">
+    <col span="2" style="background-color: blue;">
+    <col span="2" style="background-color: brown;">
+    
+    </colgroup>
+    <thead style="border: center;">
+      <th>Serial no.</th>
+      <th>Name</th>
+      <th>City</th>
+      <th>Age</th>
+      <th>Course</th> 
+</thead>
+<tr style="text-align: center;" >
+  <td>1.</td>
+<td>Daniel Kariuki</td>
+<td>Nairobi</td>
+<td>30</td>
+<td>Bsc. IT</td>
+</tr>
+<tr>
+  <td>2.</td>
+  <td>Ann Kaburu </td>
+  <td rowspan="2">Mombasa</td>
+  <td>26</td>
+  <td rowspan="2">B.Ed</td>
+  
+</tr>
+<tr>
+  <td>3.</td>
+  <td>Emmah Waithiira</td>
+  
+  <td>23</td>
+  
+</tr>
+<td>4.</td>
+<td>Mike Gathogo</td>
+<td>Nakuru</td>
+<td>20</td>
+<td>Aeronautical Engineering</td>
+<footer>
+<tr>
+  <td>5.</td>
+  <td colspan="5">No Data</td>
+</tr>
+</footer>
+</table>
+<p> HTML Tutorial on Tables </p>
+</body>
+</html>
